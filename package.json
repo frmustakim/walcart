@@ -1,0 +1,22 @@
+{
+  "name": "walcart",
+  "version": "1.0.0",
+  "description": "Walcart Developer Test",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "Md. Fazle Rabbi",
+  "license": "MIT",
+  "dependencies": {
+    "config": "^3.3.7",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.5",
+    "slugify": "^1.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
